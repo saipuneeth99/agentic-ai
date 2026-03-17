@@ -138,3 +138,5 @@ logs/
 *.bak
 temp/
 tmp/
+.oauth_tokens/
+.users/
