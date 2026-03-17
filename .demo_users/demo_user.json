@@ -1,0 +1,19 @@
+{
+  "username": "demo_user",
+  "email": "demo@agentic.ai",
+  "password_hash": "706a99575b48af7ce7feb62cd5977bc37031b03663ddb67464f9f109369bc3f8",
+  "password_salt": "44d88964091b3c5b8ee16759783ca59b",
+  "created_at": "2026-03-18T00:40:50.754404",
+  "credits": {
+    "total_allocated": 1500,
+    "total_used": 0.096,
+    "available": 1499.904,
+    "plan": "starter",
+    "plan_updated_at": "2026-03-18T00:40:50.754410"
+  },
+  "settings": {
+    "default_model": "gemini-pro",
+    "logging_enabled": true,
+    "auto_login": false
+  }
+}

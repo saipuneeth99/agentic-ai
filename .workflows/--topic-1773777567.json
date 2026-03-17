@@ -1,0 +1,43 @@
+{
+  "workflow_id": "--topic-1773777567",
+  "project_name": "--topic",
+  "description": "Small Ecommerce Website --description A professional online store with product catalog, shopping cart, secure checkout, and admin dashboard",
+  "steps": [
+    {
+      "step_id": "frontend-design",
+      "description": "Design UI/UX for the project",
+      "agent_type": "frontend",
+      "task_query": "Design frontend for --topic",
+      "dependencies": [],
+      "estimated_time": 300,
+      "status": "pending",
+      "created_at": "2026-03-18T01:29:27.408892"
+    },
+    {
+      "step_id": "backend-design",
+      "description": "Design backend architecture and APIs",
+      "agent_type": "backend",
+      "task_query": "Design backend architecture for --topic",
+      "dependencies": [],
+      "estimated_time": 300,
+      "status": "pending",
+      "created_at": "2026-03-18T01:29:27.408899"
+    },
+    {
+      "step_id": "orchestration",
+      "description": "Coordinate all components",
+      "agent_type": "orchestrator",
+      "task_query": "Orchestrate integration for --topic",
+      "dependencies": [
+        "frontend-design",
+        "backend-design"
+      ],
+      "estimated_time": 300,
+      "status": "pending",
+      "created_at": "2026-03-18T01:29:27.408900"
+    }
+  ],
+  "phase": "planning",
+  "created_at": "2026-03-18T01:29:27.408904",
+  "estimated_total_time": 900
+}
