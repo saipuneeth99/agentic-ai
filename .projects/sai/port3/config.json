@@ -1,0 +1,17 @@
+{
+  "project": {
+    "name": "port3",
+    "version": "1.0.0",
+    "description": "create a portfolio website"
+  },
+  "author": "sai",
+  "generated": {
+    "at": "2026-03-26T18:48:30.155796",
+    "by": "Agentic AI"
+  },
+  "settings": {
+    "debug": true,
+    "port": 8000,
+    "host": "localhost"
+  }
+}

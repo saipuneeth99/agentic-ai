@@ -1,0 +1,43 @@
+{
+  "workflow_id": "portfolio-website-1774528304",
+  "project_name": "portfolio-website",
+  "description": "Build a modern portfolio website",
+  "steps": [
+    {
+      "step_id": "frontend-design",
+      "description": "Design UI/UX for the project",
+      "agent_type": "frontend",
+      "task_query": "Design frontend for portfolio-website",
+      "dependencies": [],
+      "estimated_time": 300,
+      "status": "pending",
+      "created_at": "2026-03-26T18:01:44.247147"
+    },
+    {
+      "step_id": "backend-design",
+      "description": "Design backend architecture and APIs",
+      "agent_type": "backend",
+      "task_query": "Design backend architecture for portfolio-website",
+      "dependencies": [],
+      "estimated_time": 300,
+      "status": "pending",
+      "created_at": "2026-03-26T18:01:44.247152"
+    },
+    {
+      "step_id": "orchestration",
+      "description": "Coordinate all components",
+      "agent_type": "orchestrator",
+      "task_query": "Orchestrate integration for portfolio-website",
+      "dependencies": [
+        "frontend-design",
+        "backend-design"
+      ],
+      "estimated_time": 300,
+      "status": "pending",
+      "created_at": "2026-03-26T18:01:44.247154"
+    }
+  ],
+  "phase": "planning",
+  "created_at": "2026-03-26T18:01:44.247157",
+  "estimated_total_time": 900
+}
